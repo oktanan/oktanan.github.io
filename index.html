@@ -1,624 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Oktavia Portofolio</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
 
-    <!-- Favicons -->
-    <link href="img/o.jpg" rel="icon" />
-    <link href="img/o.jpg" rel="apple-touch-icon" />
+<head>
+    <meta charset="utf-8">
+    <title>Oktavia - Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
 
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet" />
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- =======================================================
-    Theme Name: DevFolio
-    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-  </head>
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-  <body id="page-top">
-    <!--/ Nav Star /-->
-    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll" href="#page-top">Oktaviaa</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link js-scroll active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll" href="#project">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll" href="#galery">Galery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll" href="#contact">Contact</a>
-            </li>
-          </ul>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-      </div>
-    </nav>
-    <!--/ Nav End /-->
-
-    <!--/ Intro Skew Star /-->
-    <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
-      <div class="overlay-itro"></div>
-      <div class="intro-content display-table">
-        <div class="table-cell">
-          <div class="container">
-            <!--<p class="display-6 color-d">Hello, world!</p>-->
-            <h1 class="intro-title mb-4">I am Oktavia Fatmawati</h1>
-            <p class="intro-subtitle">
-              <span class="text-slider-items">I am Student, Software Engineering, Web Developer</span><strong class="text-slider"></strong>
-            </p>
-            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-          </div>
-        </div>
-      </div>
     </div>
-    <!--/ Intro Skew End /-->
+    <!-- Spinner End -->
 
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="img/me.jpg" class="img-fluid rounded b-shadow-a" alt=""/>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p>
-                          <span class="title-s">Name: </span><span>Oktavia Fatmawati</span>
-                        </p>
-                        <p>
-                          <span class="title-s">School: </span><span>SMK N 2 Karanganyar</span>
-                        </p>
-                        <p>
-                          <span class="title-s">Address: </span><span>Mojogedang</span>
-                        </p>
-                        <p>
-                          <span class="title-s">Email: </span><span>fatmaoktavia74@gmail.com</span>
-                        </p>
-                        <p>
-                          <span class="title-s">Phone: </span><span>+62 896-9175-0829</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">About me</h5>
-                    </div>
-                    <p class="lead" style="text-align: justify">
-                      I am Oktavia Fatmawati, a student of SMK Negeri 2 Karanganyar majoring in Software Engineering.
-                      I was born in Karanganyar on October 29, 2005, and I am the youngest of 4 siblings.
-                      My hobbies are listening to music and exploring nature. I am someone who is easy to adapt,
-                      can work hard, collaborate in a team, detail-oriented, easy to communicate with others, 
-                      and enjoy learning new things.
-                    </p>
-                  </div>
-                </div>
-                <h2 class="title-box">Skill</h2>
-                <div class="col-lg-12">
-                  <div class="row">
-                    <div class="col-lg-2 col-md-2 col-sm-6">
-                      <div class="single-brand-item d-table">
-                        <div class="d-table-cell text-center">
-                          <img src="img/html.png" class="card-img" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6">
-                      <div class="single-brand-item d-table">
-                        <div class="d-table-cell text-center">
-                          <img src="img/css.png" class="card-img" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-8">
-                      <div class="single-brand-item d-table">
-                        <div class="d-table-cell text-center">
-                          <img src="img/bootstrap.png" class="card-img" alt=""
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-8">
-                      <div class="single-brand-item d-table">
-                        <div class="d-table-cell text-center">
-                          <img src="img/js.png" class="card-img" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-8">
-                      <div class="single-brand-item d-table">
-                        <div class="d-table-cell text-center">
-                          <img src="img/laravel.png" class="card-img" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-8">
-                      <div class="single-brand-item d-table">
-                        <div class="d-table-cell text-center">
-                          <img src="img/php.png" class="card-img" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-8">
-                      <div class="single-brand-item d-table">
-                        <div class="d-table-cell text-center">
-                          <img src="img/mysql.png" class="card-img" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!--/ Section Services Star /-->
-    <section id="project" class="services-mf route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">Projects</h3>
-              <div class="line-mf"></div>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">ProMan</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#project" class="nav-item nav-link">Projects</a>
             </div>
-          </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">Oktanan</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#team" class="nav-item nav-link">Experience</a>
+                <a href="#testimonial" class="nav-item nav-link">Skills</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <a href="https://github.com/oktanan/kasir"><span class="ico-circle"><i class="ion-monitor"></i></span></a>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Kasir PHP NATIVE</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <a href="https://github.com/oktanan/kasir-laravel"><span class="ico-circle"><i class="ion-code-working"></i></span></a>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Kasir Laravel</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <a href="https://github.com/oktanan/pelanggaran_siswa"><span class="ico-circle"><i class="ion-power"></i></span></a>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Pelanggaran Siswa</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <a href="https://github.com/oktanan/praktikum-pbo"><span class="ico-circle"><i class="ion-ios-plus-outline"></i></span></a>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">CRUD PBO</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/ Section Services End /-->
+    </nav>
+    <!-- Navbar End -->
 
-    <!--/ Section Portfolio Star /-->
-    <section id="galery" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">Galery</h3>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/g1.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="img/g1.jpg" alt="" class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <div class="w-more">
-                        <span class="w-ctegory">me</span> /
-                        <span class="w-date">28 Januari 2024</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/g2.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="img/g2.jpg" alt="" class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <div class="w-more">
-                        <span class="w-ctegory">me and friends</span> /
-                        <span class="w-date">10 Maret 2024</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/g6.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="img/g6.jpg" alt="" class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <div class="w-more">
-                        <span class="w-ctegory">me</span> /
-                        <span class="w-date">31 Maret 2023</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/g4.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="img/g4.jpg" alt="" class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <div class="w-more">
-                        <span class="w-ctegory">me and friends</span> /
-                        <span class="w-date">30 November 2023</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/g3.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="img/g3.jpg" alt="" class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <div class="w-more">
-                        <span class="w-ctegory">me and friends</span> /
-                        <span class="w-date">25 Desember 2023</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/g5.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="img/g5.jpg" alt="" class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <div class="w-more">
-                        <span class="w-ctegory">me and friends</span> /
-                        <span class="w-date">29 Oktober 2023</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/ Section Portfolio End /-->
 
-    <!--/ Section Blog Star /-->
-    <section id="education" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">Education</h3>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="https://maps.app.goo.gl/G1vk6hXLmvoeSFpJA"
-                  ><img src="img/sd.png" alt="" class="img-fluid"
-                /></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">SD Negeri 03 Pojok</h6>
-                  </div>
-                </div>
-                <p class="card-description">
-                  C2Q6+64C, Jl. Jambangan, Desa Bendo, Kec., Bendo, Mojogedang,
-                  Kec. Mojogedang, Kabupaten Karanganyar, Jawa Tengah 57752
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="https://maps.app.goo.gl/fmRJwx6hL8kd9aGt8"
-                  ><img src="img/smp.png" alt="" class="img-fluid"
-                /></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">SMP Negeri 2 Mojogedang</h6>
-                  </div>
-                </div>
-                <p class="card-description">
-                  C2HF+GM5 SMPN 2, Mojogedang, Karanganyar Regency, Central Java
-                  57762
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="https://maps.app.goo.gl/cijoxL9ao7fR3Smw5"
-                  ><img src="img/smk.png" alt="" class="img-fluid"
-                /></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">SMK Negeri 2 Karanganyar</h6>
-                  </div>
-                </div>
-                <p class="card-description">
-                  CX42+XRJ, Jl. Yos Sudarso, Jengglong, Bejen, Kec. Karanganyar,
-                  Kabupaten Karanganyar, Jawa Tengah 57716
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/ Section Blog End /-->
-
-    <!--/ Section Contact-Footer Star /-->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">Send Message Us</h5>
-                    </div>
-                    <div>
-                      <form action="" method="post" role="form" class="contactForm">
-                        <div id="sendmessage">
-                          Your message has been sent. Thank you!
-                        </div>
-                        <div id="errormessage"></div>
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
-                              <div class="validation"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"/>
-                              <div class="validation"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"/>
-                              <div class="validation"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                              <div class="validation"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <button type="submit" class="button button-a button-big button-rouded">
-                              Send Message
-                            </button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">CONTACT</h5>
-                    </div>
-                    <div class="more-info">
-                      <ul class="list-ico">
-                        <li>
-                          <span class="ion-ios-location"></span> Bendo 01/09 Pojok, Mojogedang, Karanganyar, Jawa Tengah
-                        </li>
-                        <li>
-                          <span class="ion-ios-telephone"></span>+62896-9175-0829
-                        </li>
-                        <li>
-                          <span class="ion-email"></span>fatmaoktavia74@gmail.com
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li>
-                          <a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a>
-                        </li>
-                        <li>
-                          <a href="https://www.instagram.com/oktanan?igsh=OWpyMW9xaTc0bjZh"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a>
-                        </li>
-                        <li>
-                          <a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a>
-                        </li>
-                        <li>
-                          <a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <footer>
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="copyright-box">
-                <p class="copyright">
-                  &copy; Copyright <strong>Oktaviaa</strong>. All Rights
-                  Reserved
-                </p>
-              </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h2 class="text-primary mb-3">I'm</h2>
+                    <h1 class="display-3 mb-3">Oktavia Fatmawati</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">I am Student, Software Engineering, I am Junior Web Developer</div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/saya.png" alt="">
+                </div>
             </div>
-          </div>
         </div>
-      </footer>
-    </section>
-    <!--/ Section Contact-footer End /-->
+    </div>
+    <!-- Header End -->
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-    <div id="preloader"></div>
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-2 mb-0">About Me</h1>
+                        </div>
+                    </div>
+                    <p class="mb-4">
+                        Hello! I'm Oktavia Fatmawati, a student of SMKN 2 Karanganyar majoring in Software Engineering. Currently, I am delving into the world of web development and excited to deepen my understanding of coding and design.  My hobbies are listening to music and exploring nature. I am someone who is easy to adapt, hardworking, collaborative in a team, detail-oriented, able to communicate well with others, and enjoy learning new things.
+                    </p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Birthday : October 29, 2005.</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Age : 18</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Phone : +62 896-9175-0829</p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/me3.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/me2.jpg" alt="">
+                        </div>
+                    </div>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Email : fatmaoktavia74@gmail.com</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Address : Karanganyar, Central Java</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>School : SMK N 2 Karanganyar</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Major: Software Engineering</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Internship Experience & Education</h1>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Internship Experience</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Ozeva Technology</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">11 Desember 2023 - 1 Maret 2024</p>
+                                    <h6 class="mb-0">Web Developer</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>SD N 03 Pojok</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2012 - 2018</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>SMP N 2 Mojogedang</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2018 - 2021</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>SMK N 2 Karanganyar</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2021 - Present</p>
+                                    <h6 class="mb-0">Software Engineering</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">All Projects</li>
+                        <li class="mx-3" data-filter=".first">Cashier</li>
+                        <li class="mx-3" data-filter=".second">Other</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/kasir1.png" alt="">
+                        <br><br>
+                        <p>Aplikasi Web Kasir</p>
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/kasir1.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/oktanan/kasir"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/toko.png" alt="">
+                        <br><br>
+                        <p>Aplikasi Toko Online</p>
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/toko.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/oktanan/toko_online"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/kasir2.png" alt="">
+                        <br><br>
+                        <p>Aplikasi Web Kasir & Penjualan</p>
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/kasir2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/multistore.png" alt="">
+                        <br><br>
+                        <p>Aplikasi Multi Store Finance</p>
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/multistore.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-6 pb-5" id="team">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Internship Experience</h1>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/ozeva.jpg" alt="">
+                        <div>
+                            <h5>Ozeva Technology</h5>
+                            <span>11 Desember 2023 - 1 Maret 2024</span>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Skills</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/html.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/css.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/mysql.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img p-2 mx-auto" src="img/html.png" alt="">
+                            </div>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img p-2 mx-auto" src="img/css.png" alt="">
+                            </div>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img p-2 mx-auto" src="img/mysql.png" alt="">
+                            </div>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img p-2 mx-auto" src="img/bootstrap.png" alt="">
+                            </div>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img p-2 mx-auto" src="img/js.png" alt="">
+                            </div>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img p-2 mx-auto" src="img/php.png" alt="">
+                            </div>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img p-2 mx-auto" src="img/laravel.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/php.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/bootstrap.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/js.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">My Address:</p>
+                    <h5 class="fw-bold">Bendo 01/09 Pojok, Mojogedang, Karanganyar, Jawa Tengah</h5>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+62 896-9175-0829</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">fatmaoktavia74@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://github.com/oktanan"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/oktanan?igsh=OWpyMW9xaTc0bjZh"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" readonly>
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" readonly>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" readonly>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px" readonly></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom text-secondary" href="#">oktaviaa</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a>
+                        <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
 
     <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/popper/popper.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/counterup/jquery.waypoints.min.js"></script>
-    <script src="lib/counterup/jquery.counterup.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-    <!-- Template Main Javascript File -->
+    <!-- Template Javascript -->
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
